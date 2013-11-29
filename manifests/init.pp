@@ -35,7 +35,8 @@
 #
 # Copyright 2013 Your name here, unless otherwise noted.
 #
-class kibana {
+class kibana inherits kibana::params {
 
+  class {'kibana::install': }
 
 }
