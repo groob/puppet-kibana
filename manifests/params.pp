@@ -1,3 +1,3 @@
 class kibana::params {
-  $kibana_vhost = "kibana.dev"
+  $kibana_vhost = "kibana"
 }

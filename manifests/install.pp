@@ -5,7 +5,7 @@ class kibana::install {
     ensure   => 'present',
     provider => 'git',
     source   => 'git://github.com/elasticsearch/kibana.git',
-    revision => 'v3.0.0milestone4',
+    revision => 'v3.0.0',
   }
 
   apache::vhost { $kibana_vhost:
