@@ -35,7 +35,7 @@
 #
 # Copyright 2013 Your name here, unless otherwise noted.
 #
-class kibana inherits kibana::params {
+class kibana($kibana_vhost = $kibana::params::kibana_vhost) inherits kibana::params {
 
   class {'kibana::install': }
 
